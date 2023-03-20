@@ -8,8 +8,8 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<ImageZoom/>}/>
-          <Route path="/link" element={<ZoomPinch/>}/>
+          <Route path="/link" element={<ImageZoom/>}/>
+          <Route path="/" element={<ZoomPinch/>}/>
         </Routes>
       </Router>
     </div>
